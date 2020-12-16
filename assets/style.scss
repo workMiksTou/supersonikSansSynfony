@@ -1,0 +1,78 @@
+$yellow: #ffce00; 
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.mainImg {
+    background-image: url('img/mainImg.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header nav {
+        .ulNavBAr {
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            right: 20rem;
+
+                    li {
+                        padding: 15px;                        
+                    }
+                }
+            } 
+
+.ulNavBAr .liAlignSelfLeft {
+    align-self: flex-start;
+}
+
+.h2FirstSection {
+    color: $yellow;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hrTaille {
+    width: 6rem;
+    margin: auto;
+    margin-top: 1.25rem;
+}
+
+.yellow {
+    color: $yellow;
+}
+
+.btn-primary.btn-alt {
+    background-color: $yellow !important;
+    margin: 15px 0;
+    border-color: $yellow;
+}
+
+.bouttunAlignCenter {
+    text-align: center;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.textJustify {
+    text-align: justify;
+}
+
+
+.cardMotImportant {
+    font-size: 20px;
+}
